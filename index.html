@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nike Shop Landing Page Mock Site</title>
+  </head>
+  <body>
+    <header class="navContainer flex">
+      <div class="logoBox flex">
+        <a href="#" class="navLink homeLink">
+          <img src="images/nike-logo-white.png" alt="NIKE" class="logoImg" />
+        </a>
+      </div>
+      <nav class="topNavigation flex">
+        <ul class="navList flex">
+          <li class="navItem">
+            <a href="#" class="navLink">Home</a>
+          </li>
+          <li class="navItem">
+            <a href="#about" class="navLink">About</a>
+          </li>
+          <li class="navItem">
+            <a href="#shop" class="navLink">Shop</a>
+          </li>
+          <li class="navItem">
+            <a href="#testimonial" class="navLink">Testimonial</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="accountInfo flex">
+        <ul class="accountList flex">
+          <li class="navItem accountItem">
+            <a href="#" class="navLink accountLink">
+              <img
+                src="images/search-icon.png"
+                alt="search"
+                class="accountIcon"
+                id="search-icon"
+              />
+            </a>
+          </li>
+          <li class="navItem accountItem">
+            <a href="#" class="navLink accountLink">
+              <img
+                src="images/shopping-cart-icon.png"
+                alt="cart"
+                class="accountIcon"
+                id="shopping-cart"
+              />
+            </a>
+          </li>
+          <li class="navItem accountItem">
+            <a href="#" class="navLink accountLink">
+              <img
+                src="images/account-icon.png"
+                alt="account"
+                class="accountIcon"
+                id="profile"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="siteContainer">
+      <section class="pageSection flex mainHero">
+        <div class="patternContainer">
+          <img
+            src="images/star-icons/back-ground-pattern.png"
+            alt="none"
+            class="pattern"
+          />
+        </div>
+        <div class="heroContainer grid">
+          <div class="flex heroBox">
+            <div class="textBox flex">
+              <h1 class="largeTitle">COMFORT</h1>
+              <h2 class="mediumTitle subHeading">Awaits Everyday</h2>
+              <button class="shopBtn">Shop Now</button>
+            </div>
+          </div>
+          <div class="flex heroBox shoeHero">
+            <div class="itemTag heroTag review dark flex">
+              <div class="reviewText flex">
+                <p class="reviewP numbers">4.8 | * * * * *</p>
+                <p class="reviewP totalRev">2K+ Total Reviews</p>
+              </div>
+            </div>
+            <div class="imageContainer heroShoeContainer">
+              <img
+                src="images/nike-orange-hero.png"
+                alt="Nike Orange Special Classics"
+                class="heroShoe largeShoe"
+              />
+            </div>
+          </div>
+          <div class="flex heroBox">
+            <div class="itemsContainer heroItems flex">
+              <div class="itemBox flex">
+                <div class="itemTag dark flex">
+                  <h3 class="itemName">Nike Free</h3>
+                  <div class="colorOptions">
+                    <span class="black circle"></span>
+                    <span class="white circle"></span>
+                    <span class="red circle"></span>
+                    <span class="blue circle"></span>
+                  </div>
+                  <p class="price">$120.00</p>
+                </div>
+                <div class="itemImage">
+                  <img
+                    src="images/nike-shop-3.png"
+                    alt="Airforces"
+                    class="smallItemImage"
+                  />
+                </div>
+              </div>
+              <div class="itemBox flex">
+                <div class="itemTag dark flex">
+                  <h3 class="itemName">Nike Free</h3>
+                  <div class="colorOptions">
+                    <span class="black circle"></span>
+                    <span class="white circle"></span>
+                    <span class="red circle"></span>
+                    <span class="blue circle"></span>
+                  </div>
+                  <p class="price">$120.00</p>
+                </div>
+                <div class="itemImage">
+                  <img
+                    src="images/nike-shop-4.png"
+                    alt="Airforces"
+                    class="smallItemImage"
+                  />
+                </div>
+              </div>
+              <div class="itemBox flex">
+                <div class="itemTag dark flex">
+                  <h3 class="itemName">Nike Free</h3>
+                  <div class="colorOptions">
+                    <span class="black circle"></span>
+                    <span class="white circle"></span>
+                    <span class="red circle"></span>
+                    <span class="blue circle"></span>
+                  </div>
+                  <p class="price">$120.00</p>
+                </div>
+                <div class="itemImage pinkItem">
+                  <img
+                    src="images/nike-shop-8.png"
+                    alt="Airforces"
+                    class="smallItemImage"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pageSection flex aboutShoes" id="about">
+        <div class="aboutContainer grid">
+          <div class="textBox flex aboutBox">
+            <h2 class="sectionTitle mediumTitle">
+              Know About Your Shoe's Features.
+            </h2>
+            <p class="sectionPara">
+              Our collection of Nike Shoes are not only stylish but have many
+              features that improve your everyday. Take a look at some of the
+              best features!
+            </p>
+            <ul class="featuresList">
+              <li class="feature flex">
+                <div class="featIconBox">
+                  <img
+                    src="images/star-icons/2.png"
+                    alt="quality"
+                    class="smallIcon"
+                  />
+                </div>
+                <div class="featText">
+                  <h3 class="featHeading">High Quality</h3>
+                  <p class="featDescription">
+                    Have confidence in the quality of our sneakers. Made for
+                    everyday use without fail.
+                  </p>
+                </div>
+              </li>
+              <li class="feature flex">
+                <div class="featIconBox">
+                  <img
+                    src="images/star-icons/3.png"
+                    alt="lasting"
+                    class="smallIcon"
+                  />
+                </div>
+                <div class="featText">
+                  <h3 class="featHeading">Long Lasting</h3>
+                  <p class="featDescription">
+                    Have confidence in the quality of our sneakers. Made for
+                    everyday use without fail.
+                  </p>
+                </div>
+              </li>
+              <li class="feature flex">
+                <div class="featIconBox">
+                  <img
+                    src="images/star-icons/4.png"
+                    alt="best price"
+                    class="smallIcon"
+                  />
+                </div>
+                <div class="featText">
+                  <h3 class="featHeading">Best Price Range</h3>
+                  <p class="featDescription">
+                    Fair pricing that is suitable for all households. Made for
+                    everyday use without fail.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="flex aboutBox">
+            <div class="imageContainer aboutImageCirle">
+              <img
+                src="images/brasil-nike-2.jpeg"
+                alt="brasil Nike Closeup"
+                class="aboutImage"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pageSection flex ourCollection" id="shop">
+        <div class="textBox flex">
+          <h2 class="sectionTitle mediumTitle">Our Best Collection</h2>
+        </div>
+        <div class="collectionContainer grid">
+          <div class="collectionItem flex">
+            <div class="itemTag flex">
+              <h3 class="itemName">Nike Free</h3>
+              <div class="colorOptions">
+                <span class="black circle"></span>
+                <span class="white circle"></span>
+                <span class="red circle"></span>
+                <span class="blue circle"></span>
+              </div>
+              <p class="price">$120.00</p>
+            </div>
+            <div class="itemImage">
+              <img
+                src="images/nike-shop-3.png"
+                alt="Airforces"
+                class="smallItemImage"
+              />
+            </div>
+          </div>
+          <div class="collectionItem flex">
+            <div class="itemTag flex">
+              <h3 class="itemName">Nike Free</h3>
+              <div class="colorOptions">
+                <span class="black circle"></span>
+                <span class="white circle"></span>
+                <span class="red circle"></span>
+                <span class="blue circle"></span>
+              </div>
+              <p class="price">$120.00</p>
+            </div>
+            <div class="itemImage">
+              <img
+                src="images/nike-shop-4.png"
+                alt="Airforces"
+                class="smallItemImage"
+              />
+            </div>
+          </div>
+          <div class="collectionItem flex">
+            <div class="itemTag flex">
+              <h3 class="itemName">Nike Free</h3>
+              <div class="colorOptions">
+                <span class="black circle"></span>
+                <span class="white circle"></span>
+                <span class="red circle"></span>
+                <span class="blue circle"></span>
+              </div>
+              <p class="price">$120.00</p>
+            </div>
+            <div class="itemImage">
+              <img
+                src="images/nike-shop-5.png"
+                alt="Airforces"
+                class="smallItemImage"
+              />
+            </div>
+          </div>
+          <div class="collectionItem flex">
+            <div class="itemTag flex">
+              <h3 class="itemName">Nike Free</h3>
+              <div class="colorOptions">
+                <span class="black circle"></span>
+                <span class="white circle"></span>
+                <span class="red circle"></span>
+                <span class="blue circle"></span>
+              </div>
+              <p class="price">$120.00</p>
+            </div>
+            <div class="itemImage greenItem">
+              <img
+                src="images/nike-shop-7.png"
+                alt="Airforces"
+                class="smallItemImage"
+              />
+            </div>
+          </div>
+          <div class="collectionItem flex">
+            <div class="itemTag flex">
+              <h3 class="itemName">Nike Free</h3>
+              <div class="colorOptions">
+                <span class="black circle"></span>
+                <span class="white circle"></span>
+                <span class="red circle"></span>
+                <span class="blue circle"></span>
+              </div>
+              <p class="price">$120.00</p>
+            </div>
+            <div class="itemImage">
+              <img
+                src="images/nike-shop-3.png"
+                alt="Airforces"
+                class="smallItemImage"
+              />
+            </div>
+          </div>
+          <div class="collectionItem flex">
+            <div class="itemTag flex">
+              <h3 class="itemName">Nike Free</h3>
+              <div class="colorOptions">
+                <span class="black circle"></span>
+                <span class="white circle"></span>
+                <span class="red circle"></span>
+                <span class="blue circle"></span>
+              </div>
+              <p class="price">$120.00</p>
+            </div>
+            <div class="itemImage pinkItem">
+              <img
+                src="images/nike-shop-8.png"
+                alt="Airforces"
+                class="smallItemImage"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pageSection flex shopMore">
+        <div class="shopContainer grid">
+          <div class="shopBox flex">
+            <div class="imageContainer">
+              <!--
+
+              
+              <img
+                src="images/nike-model-jacket-2.jpeg"
+                alt="Nike street wear model"
+                class="fashionImage"
+              />-->
+            </div>
+          </div>
+          <div class="shopBox flex">
+            <div class="textBox flex">
+              <h2 class="sectionTitle mediumTitle">
+                We Offer More than Just Kicks.
+              </h2>
+              <p class="sectionPara">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti quidem ad iste soluta sequi temporibus fugit! Omnis eos
+                cum exercitationem, reiciendis officiis nostrum, impedit
+                blanditiis ipsum, quidem adipisci laudantium dolor.
+              </p>
+              <button class="shopBtn">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pageSection flex gallery">
+        <div class="textBox">
+          <h2 class="sectionTitle">Our Photo Gallery</h2>
+        </div>
+        <div class="galleryContainer grid">
+          <div class="galleryBox flex">
+            <img
+              src="images/nike-lime-green.jpeg"
+              alt="green shoe"
+              class="galleryImg"
+            />
+          </div>
+          <div class="galleryBox flex">
+            <img
+              src="images/nike-royal-blue.jpeg"
+              alt="blue shoe"
+              class="galleryImg"
+            />
+          </div>
+          <div class="galleryBox flex">
+            <img
+              src="images/nike-jordan-mint-green.jpeg"
+              alt="mint shoe"
+              class="galleryImg"
+            />
+          </div>
+          <div class="galleryBox flex">
+            <img
+              src="images/nike-women-pink.jpeg"
+              alt="pink shoe"
+              class="galleryImg"
+            />
+          </div>
+          <div class="galleryBox flex">
+            <img
+              src="images/nike-tan-black-background.jpeg"
+              alt="tan shoe"
+              class="galleryImg"
+            />
+          </div>
+          <div class="galleryBox flex">
+            <img
+              src="images/nike-large-teal.jpeg"
+              alt="teal shoe"
+              class="galleryImg"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="pageSection flex newsLetter" id="testimonial">
+        <div class="mySwiper swiper">
+          <div class="swiper-wrapper">
+            <div class="newsContainer grid swiper-slide">
+              <div class="newsBox flex">
+                <div class="topNewsBox flex">
+                  <div class="topHeading">
+                    <h3 class="authorHeading">Mitchell Chambers</h3>
+                    <h4 class="authorSubheading">
+                      Founder of Creative Solutions
+                    </h4>
+                  </div>
+                </div>
+                <div class="articleBox">
+                  <i class="bx bxs-quote-alt-left"></i>
+                  <h2 class="articleHeading">
+                    These Guys Make Really Cool and High-Quality Products
+                  </h2>
+                  <p class="sectionPara articlePara">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Deserunt quisquam nostrum aut maxime nisi neque facere, ad
+                    quas nihil? Maiores magnam perspiciatis ducimus sequi
+                    corporis placeat in quibusdam cumque error.
+                  </p>
+                </div>
+              </div>
+              <div class="newsBox flex imageContainer">
+                <img
+                  src="images/nike-basketball-model.jpeg"
+                  alt="Mitchell posing for picture"
+                  class="newsImage"
+                />
+              </div>
+            </div>
+            <div class="newsContainer grid swiper-slide">
+              <div class="newsBox flex">
+                <div class="topNewsBox flex">
+                  <div class="topHeading">
+                    <h3 class="authorHeading">Mitchell Chambers</h3>
+                    <h4 class="authorSubheading">
+                      Founder of Creative Solutions
+                    </h4>
+                  </div>
+                </div>
+                <div class="articleBox">
+                  <i class="bx bxs-quote-alt-left"></i>
+                  <h2 class="articleHeading">
+                    These Guys Make Really Cool and High-Quality Products
+                  </h2>
+                  <p class="sectionPara articlePara">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Deserunt quisquam nostrum aut maxime nisi neque facere, ad
+                    quas nihil? Maiores magnam perspiciatis ducimus sequi
+                    corporis placeat in quibusdam cumque error.
+                  </p>
+                </div>
+              </div>
+              <div class="newsBox flex imageContainer">
+                <img
+                  src="images/nike-basketball-model.jpeg"
+                  alt="Mitchell posing for picture"
+                  class="newsImage"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footerContainer flex pageSection">
+      <div class="logoBox footerLogoBox flex">
+        <a href="#" class="navLink homeLink">
+          <img src="images/nike-logo-white.png" alt="NIKE" class="logoImg" />
+        </a>
+      </div>
+      <div class="footerNav flex">
+        <ul class="termsList flex">
+          <li class="termsNavItem navItem">
+            <a href="#" class="navLink footerTermLink">Terms Of Service</a>
+          </li>
+          <li class="termsNavItem navItem">
+            <a href="#" class="navLink footerTermLink">Privacy Policy</a>
+          </li>
+          <li class="termsNavItem navItem">
+            <a href="#" class="navLink footerTermLink">Security</a>
+          </li>
+          <li class="termsNavItem navItem">
+            <a href="#" class="navLink footerTermLink">FAQ</a>
+          </li>
+        </ul>
+      </div>
+      <div class="mediaBottomBanner flex">
+        <div class="mediaListContainer flex">
+          <ul class="mediaListFooter flex">
+            <li class="mediaItem navItem">
+              <a href="#" class="mediaLink navLink">Face</a>
+            </li>
+            <li class="mediaItem navItem">
+              <a href="#" class="mediaLink navLink">Insta</a>
+            </li>
+            <li class="mediaItem navItem">
+              <a href="#" class="mediaLink navLink">Twitter</a>
+            </li>
+            <li class="mediaItem navItem">
+              <a href="#" class="mediaLink navLink">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+        <div class="rightsReserved">
+          2023 FRANCISCO J PEREZ - All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+    <!--
+       Swiper Js
+    -->
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
